@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Add styles specific to the UI */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.color-selectors {
+  display: flex;
+  justify-content: center;
+}
+
+.color-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.color-selector p {
+  margin-bottom: 10px;
+}
+
+input[type="color"] {
+  padding: 10px;
+}
+
+.btn{
+  
+  margin-left: 30px;
+}
+.hh{
+  margin-left: 30px;
+}
+
+pre {
+  padding: 30px;
+  background-color: #dfdddd;
+  overflow-x: auto;
+  margin: 30px;
+  border-radius: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+code {
+  font-size: 14px;
+}
